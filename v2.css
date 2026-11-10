@@ -1,0 +1,244 @@
+@import url('style.css');
+/* Retain the original Pazy palette and components. */
+.unaware-v2{font-size:16px;line-height:1.6}
+.unaware-v2 .hero h1{font-size:clamp(44px,4.6vw,65px);line-height:1.08;letter-spacing:-2.6px}
+.unaware-v2 .hero-copy>p{font-size:18px;line-height:1.75}
+.unaware-v2 .hero .risk-line{font-size:13px;line-height:1.7}
+.problem-visual .option-kicker{position:static;display:block;background:transparent;color:var(--muted);padding:0;margin-bottom:15px;font-size:11px;letter-spacing:.04em;line-height:1.6}
+.problem-visual .liquid-option .option-kicker{color:var(--pine);font-weight:800}
+.problem-visual .option-pair{grid-template-columns:1fr 1.18fr;margin-top:25px}
+.problem-visual .option-pair>div{padding:22px 19px;display:flex;flex-direction:column;min-width:0}
+.problem-visual .option-pair h3{font-size:19px;line-height:1.5;letter-spacing:-.3px}
+.problem-visual .option-pair p{font-size:13px;line-height:1.7;margin-top:6px}
+.hero-gain{display:block;font-size:38px;letter-spacing:-1.4px;line-height:1.25;margin:12px 0 0}
+.problem-visual .liquid-option{background:#e1f58b;border:2px solid #a8c258}
+.problem-visual .visual-note{font-size:12px;line-height:1.8}
+.problem-visual .redeem-example p{font-size:14px;line-height:1.7}
+.problem-pains{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.problem-pains article{border:1px solid #d8e1da;background:#f4f7f1;border-radius:15px;padding:28px}
+.problem-pains .icon{background:#e4efce;color:var(--pine);border-radius:10px;padding:11px;margin-bottom:24px}
+.problem-pains h3{font-size:23px;letter-spacing:-.6px;line-height:1.35}
+.problem-pains p{font-size:16px;line-height:1.75;margin-top:15px;color:#52645a}
+.problem-answer{display:grid;grid-template-columns:1fr 1.8fr;gap:35px;margin-top:27px;padding:25px 29px;background:#e7f2c9;border-radius:12px;align-items:center}
+.problem-answer b{font-size:22px;letter-spacing:-.5px}
+.problem-answer p{font-size:16px;line-height:1.8;color:#425d46}
+.unaware-v2 .section-head>p,.unaware-v2 .band-intro{font-size:17px;line-height:1.75}
+.unaware-v2 .note,.unaware-v2 .proof-caption,.unaware-v2 .calc-short-note,.unaware-v2 .calc-details{font-size:13px;line-height:1.8}
+.unaware-v2 .fund-identity span,.unaware-v2 .fund-return small,.unaware-v2 .fund-card>a,.unaware-v2 .past-gain>span{font-size:13px;line-height:1.6}
+.unaware-v2 .fund-category p{font-size:15px;line-height:1.7}
+.unaware-v2 .adoption-stat p,.unaware-v2 .product-benefits p{font-size:16px;line-height:1.75}
+.unaware-v2 .adoption-stat small,.unaware-v2 .adoption-stat a{font-size:13px;line-height:1.7}
+.unaware-v2 .earn-type{font-size:13px;font-weight:750}
+.unaware-v2 .earn-cards article>p,.unaware-v2 .earn-access{font-size:14px;line-height:1.7}
+.unaware-v2 .earn-highlight .earn-type{font-size:15px}
+.unaware-v2 .earn-highlight .earn-access{font-size:14px}
+.unaware-v2 .earn-highlight .earn-value strong{font-size:40px}
+.unaware-v2 .earn-highlight .earn-rate{font-size:50px}
+.unaware-v2 .earn-rate i{font-size:12px}
+.unaware-v2 .earn-summary>div:first-child>b{font-size:15px}
+.unaware-v2 .table-title{font-size:25px;letter-spacing:-.6px}
+.unaware-v2 .workflow-table td.con>b,.unaware-v2 .con{color:#965c35!important}
+.unaware-v2 .earn-cards article:first-child .earn-rate,.unaware-v2 .earn-cards article:first-child .earn-value>strong{color:#806550}
+.unaware-v2 .tenure-contrast>div:first-child{background:#f3efe7}
+.unaware-v2 .tenure-contrast>div:first-child span,.unaware-v2 .tenure-contrast>div:first-child b{color:#806044}
+.unaware-v2 .media-heading>p,.unaware-v2 .customer-proof-head>p,.unaware-v2 .quote-card>p,.unaware-v2 .story-card>p{font-size:16px;line-height:1.75}
+.unaware-v2 .media-date,.unaware-v2 .media-link,.unaware-v2 .story-grid a{font-size:13px;line-height:1.7}
+.unaware-v2 .process-grid p,.unaware-v2 .trust-cards p,.unaware-v2 .document-callout p{font-size:15px;line-height:1.75}
+.unaware-v2 .document-callout small,.unaware-v2 .trust-note,.unaware-v2 .trust-cards a{font-size:13px;line-height:1.8}
+.unaware-v2 .fee-ledger b{font-size:15px}
+.unaware-v2 .fee-ledger small,.unaware-v2 .draft-policy{font-size:13px;line-height:1.75}
+.unaware-v2 .faq summary{font-size:17px;line-height:1.6}
+.unaware-v2 .faq details p{font-size:16px;line-height:1.8}
+.unaware-v2 .customer-strip{overflow:hidden}
+.unaware-v2 .option-table:before,.unaware-v2 .workflow-table:before{content:none;display:none}
+@media(max-width:1100px){.problem-pains{gap:16px}.problem-pains article{padding:22px}.problem-visual .hero-gain{font-size:32px}.unaware-v2 .earn-highlight .earn-value strong{font-size:34px}}
+@media(max-width:760px){
+.unaware-v2 .wrap{width:calc(100% - 40px)}
+.unaware-v2 .section{padding-block:52px}
+.unaware-v2 .hero{padding:35px 0 40px}
+.unaware-v2 .hero-grid{gap:32px}
+.unaware-v2 .hero h1{font-size:36px;line-height:1.15;letter-spacing:-1.4px}
+.unaware-v2 .hero-copy>p{font-size:16px;line-height:1.75;margin:23px 0 25px}
+.unaware-v2 .hero .risk-line{font-size:13px;line-height:1.75;margin-top:14px}
+.unaware-v2 .eyebrow{font-size:12px;line-height:1.65;letter-spacing:.055em;margin-bottom:17px}
+.unaware-v2 .btn,.unaware-v2 .btn.small{font-size:15px;min-height:46px;padding:12px 16px}
+.unaware-v2 .nav .btn.small{font-size:14px;min-height:43px;padding:10px 13px}
+.unaware-v2 .nav{gap:10px}
+.unaware-v2 .hero .actions{gap:10px;align-items:stretch}
+.unaware-v2 .hero .actions .btn{font-size:14px;padding:13px 14px}
+.unaware-v2 .hero-fees{display:block;font-size:14px;line-height:1.7;margin-top:18px}
+.unaware-v2 .hero-fees>span{display:block;padding:0;border:0;margin-top:4px;font-size:13px}
+.unaware-v2 .design-bar{font-size:11px;padding:5px 15px;min-height:28px}
+.unaware-v2 .design-bar button{font-size:11px}
+.unaware-v2 .section h2,.unaware-v2 .digital-band h2,.unaware-v2 .ownership h2,.unaware-v2 .closing h2,.unaware-v2 .media-heading h2,.unaware-v2 .customer-proof-head h2{font-size:31px;line-height:1.2;letter-spacing:-.9px}
+.unaware-v2 .section-head{margin-bottom:27px}
+.unaware-v2 .section-head>p,.unaware-v2 .band-intro,.unaware-v2 .section-copy{font-size:16px;line-height:1.75;margin-top:18px}
+.unaware-v2 .problem-visual{padding:19px;border-radius:16px}
+.unaware-v2 .visual-top{font-size:14px;gap:9px}
+.unaware-v2 .sample-tag{font-size:11px}
+.unaware-v2 .visual-amount{font-size:37px;letter-spacing:-1.3px;margin-block:24px}
+.unaware-v2 .visual-amount small{font-size:14px;line-height:1.7;margin-top:9px}
+.problem-visual .option-pair{gap:9px;grid-template-columns:1fr 1.2fr;margin-top:15px}
+.problem-visual .option-pair>div{padding:18px 12px}
+.problem-visual .option-kicker{font-size:11px;line-height:1.6;margin-bottom:13px;min-height:35px}
+.problem-visual .option-pair h3{font-size:16px;line-height:1.5;min-height:48px}
+.problem-visual .hero-gain{font-size:28px;letter-spacing:-1px;margin-top:10px;white-space:nowrap}
+.problem-visual .option-pair p{font-size:13px;line-height:1.6}
+.unaware-v2 .redeem-example{gap:11px;padding:17px 0}
+.unaware-v2 .redeem-example b{font-size:16px}
+.unaware-v2 .redeem-example p{font-size:14px;line-height:1.7;margin-top:8px}
+.unaware-v2 .visual-note{font-size:13px;line-height:1.75}
+.unaware-v2 .customer-strip{padding:23px 0 21px}
+.unaware-v2 .customer-strip-head{display:block}
+.unaware-v2 .customer-strip-head p{font-size:16px;line-height:1.6;max-width:300px}
+.unaware-v2 .customer-strip-head a{display:inline-block;font-size:14px;margin-top:10px}
+.unaware-v2 .customer-names.customer-grid{display:flex;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;gap:0;scroll-snap-type:x proximity;margin:19px 0 16px;padding-bottom:10px}
+.unaware-v2 .customer-grid>span{flex:0 0 112px;min-height:55px;padding:10px 12px;border:0!important;font-size:21px;scroll-snap-align:start}
+.unaware-v2 .customer-grid img,.unaware-v2 .customer-grid>span:nth-child(9) img{max-width:92px;max-height:32px}
+.unaware-v2 .proof-caption{font-size:13px;line-height:1.75}
+.problem-pains{grid-template-columns:1fr;gap:14px}
+.problem-pains article{padding:23px;display:grid;grid-template-columns:39px 1fr;gap:0 14px}
+.problem-pains .icon{grid-row:1/3;padding:9px;margin:3px 0 0;align-self:start}
+.problem-pains .icon svg{width:21px;height:21px}
+.problem-pains h3{font-size:21px;line-height:1.4;letter-spacing:-.4px}
+.problem-pains h3 br{display:none}
+.problem-pains p{font-size:16px;line-height:1.7;margin-top:12px}
+.problem-answer{display:block;padding:23px;margin-top:20px}
+.problem-answer b{font-size:21px;line-height:1.4;display:block}
+.problem-answer p{font-size:16px;line-height:1.75;margin-top:12px}
+.unaware-v2 .earn-controls{grid-template-columns:1fr;gap:4px}
+.unaware-v2 .earn-controls .field,.unaware-v2 .earn-window>b{font-size:14px;line-height:1.6}
+.unaware-v2 .money-input{min-height:54px;padding:13px 14px!important}
+.unaware-v2 .earn-controls input{font-size:20px}
+.unaware-v2 .earn-controls #earn-unit{font-size:15px;min-width:72px;max-width:90px}
+.unaware-v2 .earn-controls .money-input span:last-child{font-size:14px}
+.unaware-v2 .earn-window{margin:8px 0 23px}
+.unaware-v2 .earn-window .segmented{gap:8px}
+.unaware-v2 .earn-window .segmented button{font-size:15px;min-height:43px;padding:10px 18px}
+.unaware-v2 .earn-cards{gap:16px}
+.unaware-v2 .earn-cards article,.unaware-v2 .earn-cards .earn-highlight{padding:23px 20px;grid-template-columns:1fr 1fr;gap:0 13px}
+.unaware-v2 .earn-type,.unaware-v2 .earn-highlight .earn-type{font-size:14px;line-height:1.6;letter-spacing:.025em;margin-bottom:17px}
+.unaware-v2 .earn-rate,.unaware-v2 .earn-highlight .earn-rate{font-size:40px;line-height:1.15}
+.unaware-v2 .earn-rate>span{font-size:25px}
+.unaware-v2 .earn-rate i,.unaware-v2 .earn-highlight .earn-rate i{font-size:13px;margin-top:5px}
+.unaware-v2 .earn-cards article>p{font-size:14px;line-height:1.7;margin-top:10px}
+.unaware-v2 .earn-value{padding-left:13px}
+.unaware-v2 .earn-value small{font-size:14px}
+.unaware-v2 .earn-value strong,.unaware-v2 .earn-highlight .earn-value strong{font-size:28px;letter-spacing:-.8px;line-height:1.3}
+.unaware-v2 .earn-access,.unaware-v2 .earn-highlight .earn-access{font-size:14px;line-height:1.7;margin-top:19px;padding-top:15px}
+.unaware-v2 .earn-summary{padding:21px}
+.unaware-v2 .earn-summary>div:first-child>b{font-size:15px}
+.unaware-v2 .earn-summary p{font-size:17px;line-height:1.65}
+.unaware-v2 .calc-short-note,.unaware-v2 .calc-details,.unaware-v2 .note{font-size:14px;line-height:1.8}
+.unaware-v2 .table-title{font-size:23px;line-height:1.35;margin-top:30px}
+.unaware-v2 .option-table thead th:not(:first-child){font-size:13px;padding:13px 10px;line-height:1.5}
+.unaware-v2 .option-table thead th:last-child{font-size:16px}
+.unaware-v2 .option-table tbody th:first-child{font-size:14px;padding:11px 13px}
+.unaware-v2 .option-table tbody td{font-size:14px;padding:16px 10px;line-height:1.6}
+.unaware-v2 .option-table tbody td:last-child{font-size:15px;line-height:1.5}
+.unaware-v2 .tenure-contrast span{font-size:11px;line-height:1.7}
+.unaware-v2 .tenure-contrast b{font-size:20px;line-height:1.4;letter-spacing:-.4px}
+.unaware-v2 .fund-identity h3{font-size:18px;line-height:1.5}
+.unaware-v2 .fund-identity span,.unaware-v2 .fund-return small{font-size:13px;line-height:1.7}
+.unaware-v2 .fund-logo{width:53px;height:50px;flex-shrink:0}
+.unaware-v2 .fund-card{padding:24px 21px}
+.unaware-v2 .fund-return strong{font-size:46px}
+.unaware-v2 .past-gain{display:block}
+.unaware-v2 .past-gain>span{font-size:14px;max-width:none;line-height:1.7;display:block}
+.unaware-v2 .past-gain>b{font-size:28px;display:block;margin-top:8px}
+.unaware-v2 .fund-card>a{font-size:14px;line-height:1.7;margin-top:19px}
+.unaware-v2 .fund-category>span{font-size:12px}
+.unaware-v2 .fund-category p{font-size:16px;line-height:1.75}
+.unaware-v2 .fund-section .note,.unaware-v2 .fund-next>span,.unaware-v2 .fund-next>a{font-size:14px;line-height:1.8}
+.unaware-v2 .adoption-band{padding-block:43px}
+.unaware-v2 .adoption-layout h2{font-size:29px;line-height:1.25;letter-spacing:-.7px}
+.unaware-v2 .adoption-layout>div>p,.unaware-v2 .adoption-stat p{font-size:16px;line-height:1.75}
+.unaware-v2 .adoption-stat small,.unaware-v2 .adoption-stat a{font-size:13px;line-height:1.8}
+.unaware-v2 .digital-band{padding-block:49px}
+.unaware-v2 .workflow-table tr>th:first-child{font-size:14px;padding:13px 15px}
+.unaware-v2 .workflow-table tr>td{padding:18px 14px}
+.unaware-v2 .workflow-table td>b{font-size:15px;line-height:1.6}
+.unaware-v2 .workflow-table tr>td:last-child>b{font-size:18px;line-height:1.5;letter-spacing:-.2px}
+.unaware-v2 .workflow-table tr>td:before,.unaware-v2 .workflow-table tr>td:nth-child(3):before{font-size:11px;line-height:1.7;margin-bottom:13px;letter-spacing:0}
+.unaware-v2 .workflow-outcomes>div{font-size:16px;line-height:1.7}
+.unaware-v2 .product-top{font-size:16px;display:block;padding:19px}
+.unaware-v2 .product-top span{display:block;font-size:13px;margin-top:4px}
+.unaware-v2 .product-tabs{padding:11px 10px 0;gap:5px}
+.unaware-v2 .product-tabs button{font-size:14px;min-height:46px;padding:10px 7px}
+.unaware-v2 #product-panel{padding:24px 17px}
+.unaware-v2 #product-panel h3{font-size:24px}
+.unaware-v2 #product-panel>p{font-size:14px;line-height:1.75}
+.unaware-v2 .product-row{display:grid;grid-template-columns:30px 1fr;padding:16px 12px;gap:9px 12px}
+.unaware-v2 .product-row .icon{padding:6px;align-self:start;grid-row:1/3}
+.unaware-v2 .product-row b{font-size:15px;line-height:1.5}
+.unaware-v2 .product-row small{font-size:14px;line-height:1.7;margin-top:7px}
+.unaware-v2 .product-row>span:last-child{grid-column:2;margin:0;text-align:left;font-size:13px;line-height:1.7}
+.unaware-v2 .product-benefits h3{font-size:20px;line-height:1.45}
+.unaware-v2 .product-benefits p{font-size:16px;line-height:1.75}
+.unaware-v2 .media-heading>p,.unaware-v2 .customer-proof-head>p,.unaware-v2 .quote-card>p,.unaware-v2 .story-card>p{font-size:16px;line-height:1.75}
+.unaware-v2 .media-date,.unaware-v2 .media-link,.unaware-v2 .story-grid a{font-size:14px;line-height:1.7}
+.unaware-v2 .quote-card blockquote{font-size:23px;line-height:1.55}
+.unaware-v2 .money-flow h3{font-size:19px;line-height:1.5}
+.unaware-v2 .money-flow p{font-size:14px;line-height:1.7}
+.unaware-v2 .ownership-copy{font-size:16px;line-height:1.8}
+.unaware-v2 .trust-cards b{font-size:17px;line-height:1.5}
+.unaware-v2 .trust-cards p{font-size:15px;line-height:1.75}
+.unaware-v2 .trust-note,.unaware-v2 .trust-cards a{font-size:14px;line-height:1.8}
+.unaware-v2 .process-grid h3{font-size:21px;line-height:1.4}
+.unaware-v2 .process-grid p{font-size:16px;line-height:1.75}
+.unaware-v2 .process-grid b,.unaware-v2 .process-grid>article>span{font-size:14px;line-height:1.7}
+.unaware-v2 .document-callout b{font-size:17px;line-height:1.5}
+.unaware-v2 .document-callout p{font-size:16px;line-height:1.8}
+.unaware-v2 .document-callout small{font-size:14px;line-height:1.8}
+.unaware-v2 .fee-ledger>div{padding:20px 16px;gap:10px;align-items:flex-start}
+.unaware-v2 .fee-ledger b{font-size:16px;line-height:1.6}
+.unaware-v2 .fee-ledger small,.unaware-v2 .draft-policy{font-size:14px;line-height:1.75}
+.unaware-v2 .fee-ledger strong{font-size:24px;line-height:1.6;white-space:nowrap}
+.unaware-v2 .fee-number{font-size:13px;flex-shrink:0}
+.unaware-v2 .fee-status{font-size:14px}
+.unaware-v2 .faq summary{font-size:17px;line-height:1.65;padding-block:22px}
+.unaware-v2 .faq details p{font-size:16px;line-height:1.85}
+.unaware-v2 .closing p{font-size:16px;line-height:1.75}
+.unaware-v2 .closing-inner>div:last-child>p{font-size:14px;line-height:1.8}
+.unaware-v2 .footer{padding-bottom:116px}
+.unaware-v2 .footer-brand p,.unaware-v2 .footer-small{font-size:14px;line-height:1.8}
+.unaware-v2 .mobile-cta{padding:12px 15px calc(12px + env(safe-area-inset-bottom));gap:10px}
+.unaware-v2 .dock-copy b{font-size:14px}
+.unaware-v2 .dock-copy small{font-size:11px;line-height:1.6;max-width:150px}
+.unaware-v2 .dock-actions{gap:12px}
+.unaware-v2 .dock-pricing{font-size:14px}
+.unaware-v2 .mobile-cta .btn{font-size:14px;min-height:44px;padding:11px 13px}
+.unaware-v2 .flow-wrap{width:calc(100% - 40px)}
+.unaware-v2 .flow-main h1,.unaware-v2 .registration-layout .flow-main h1{font-size:33px;line-height:1.2}
+.unaware-v2 .flow-intro,.unaware-v2 .check-line{font-size:16px;line-height:1.75}
+.unaware-v2 .flow-main .field{font-size:14px;line-height:1.6}
+.unaware-v2 .field>input,.unaware-v2 .field>select{font-size:16px;min-height:50px}
+.unaware-v2 .form-caption,.unaware-v2 .flow-back,.unaware-v2 .tiny,.unaware-v2 .screen-footer,.unaware-v2 .inline-note{font-size:14px;line-height:1.8}
+.unaware-v2 .document-row{padding:16px 12px;gap:9px}
+.unaware-v2 .document-row strong{font-size:15px;line-height:1.5}
+.unaware-v2 .document-row small{font-size:13px;line-height:1.7}
+.unaware-v2 .document-row button{font-size:13px;min-height:42px;padding:9px}
+.unaware-v2 .document-row>.icon{display:none}
+.unaware-v2 .preview-controls,.unaware-v2 .preview-controls b,.unaware-v2 .preview-controls button{font-size:12px;line-height:1.7}
+}
+@media(max-width:360px){.unaware-v2 .hero h1{font-size:33px}.unaware-v2 .hero .actions .btn{font-size:13px;padding-inline:12px}.unaware-v2 .earn-value strong,.unaware-v2 .earn-highlight .earn-value strong{font-size:25px}.problem-visual .hero-gain{font-size:25px}.unaware-v2 .dock-copy small{max-width:132px}.unaware-v2 .dock-actions{gap:9px}.unaware-v2 .mobile-cta .btn{padding-inline:10px}}
+
+/* Original unaware hero: the same copy and elements, at a readable mobile scale. */
+@media(max-width:760px){
+.unaware-v2 .option-pair{grid-template-columns:1fr 1.2fr;gap:10px;margin-top:24px}
+.unaware-v2 .option-pair>div{padding:22px 12px 18px}
+.unaware-v2 .option-pair h3{font-size:19px;line-height:1.35;letter-spacing:-.3px}
+.unaware-v2 .option-pair p{font-size:15px;line-height:1.65;margin-top:13px}
+.unaware-v2 .option-label{font-size:13px;line-height:1.65;margin-top:17px}
+.unaware-v2 .option-kicker{font-size:11px;line-height:1.4;letter-spacing:.02em;left:7px;top:-13px;padding:5px 7px}
+.unaware-v2 .surplus-visual{padding:20px;border-radius:17px}
+.unaware-v2 .liquid-option{background:#e1f58b;border:2px solid #a8c258}
+.unaware-v2 .visual-note{font-size:13px;line-height:1.8}
+.unaware-v2 .redeem-example b{font-size:16px;line-height:1.5}
+.unaware-v2 .redeem-example p{font-size:15px;line-height:1.7}
+.unaware-v2 .hero .actions .btn{font-size:15px;min-height:48px;padding:13px 19px}
+}
+@media(max-width:760px){.unaware-v2 .hero h1{font-size:34px;letter-spacing:-1.4px}}
+@media(max-width:360px){.unaware-v2 .hero h1{font-size:32px;letter-spacing:-1.35px}}
+.unaware-v2 .onboarding-header .btn{background:transparent;border-color:#83a699;color:#fff}
+@media(max-width:760px){.unaware-v2 .hero h1{text-wrap:balance}}

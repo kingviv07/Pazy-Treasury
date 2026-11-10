@@ -1,0 +1,224 @@
+@import url('style.css');
+/* Retain the original Pazy palette and components. */
+.problem-page{font-size:16px;line-height:1.6}
+.problem-page .hero h1{font-size:clamp(44px,4.6vw,65px);line-height:1.08;letter-spacing:-2.6px}
+.problem-page .hero-copy>p{font-size:18px;line-height:1.75}
+.problem-page .hero .risk-line{font-size:13px;line-height:1.7}
+.problem-visual .option-kicker{position:static;display:block;background:transparent;color:var(--muted);padding:0;margin-bottom:15px;font-size:11px;letter-spacing:.04em;line-height:1.6}
+.problem-visual .liquid-option .option-kicker{color:var(--pine);font-weight:800}
+.problem-visual .option-pair{grid-template-columns:1fr 1.18fr;margin-top:25px}
+.problem-visual .option-pair>div{padding:22px 19px;display:flex;flex-direction:column;min-width:0}
+.problem-visual .option-pair h3{font-size:19px;line-height:1.5;letter-spacing:-.3px}
+.problem-visual .option-pair p{font-size:13px;line-height:1.7;margin-top:6px}
+.hero-gain{display:block;font-size:38px;letter-spacing:-1.4px;line-height:1.25;margin:12px 0 0}
+.problem-visual .liquid-option{background:#e1f58b;border:2px solid #a8c258}
+.problem-visual .visual-note{font-size:12px;line-height:1.8}
+.problem-visual .redeem-example p{font-size:14px;line-height:1.7}
+.problem-pains{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.problem-pains article{border:1px solid #d8e1da;background:#f4f7f1;border-radius:15px;padding:28px}
+.problem-pains .icon{background:#e4efce;color:var(--pine);border-radius:10px;padding:11px;margin-bottom:24px}
+.problem-pains h3{font-size:23px;letter-spacing:-.6px;line-height:1.35}
+.problem-pains p{font-size:16px;line-height:1.75;margin-top:15px;color:#52645a}
+.problem-answer{display:grid;grid-template-columns:1fr 1.8fr;gap:35px;margin-top:27px;padding:25px 29px;background:#e7f2c9;border-radius:12px;align-items:center}
+.problem-answer b{font-size:22px;letter-spacing:-.5px}
+.problem-answer p{font-size:16px;line-height:1.8;color:#425d46}
+.problem-page .section-head>p,.problem-page .band-intro{font-size:17px;line-height:1.75}
+.problem-page .note,.problem-page .proof-caption,.problem-page .calc-short-note,.problem-page .calc-details{font-size:13px;line-height:1.8}
+.problem-page .fund-identity span,.problem-page .fund-return small,.problem-page .fund-card>a,.problem-page .past-gain>span{font-size:13px;line-height:1.6}
+.problem-page .fund-category p{font-size:15px;line-height:1.7}
+.problem-page .adoption-stat p,.problem-page .product-benefits p{font-size:16px;line-height:1.75}
+.problem-page .adoption-stat small,.problem-page .adoption-stat a{font-size:13px;line-height:1.7}
+.problem-page .earn-type{font-size:13px;font-weight:750}
+.problem-page .earn-cards article>p,.problem-page .earn-access{font-size:14px;line-height:1.7}
+.problem-page .earn-highlight .earn-type{font-size:15px}
+.problem-page .earn-highlight .earn-access{font-size:14px}
+.problem-page .earn-highlight .earn-value strong{font-size:40px}
+.problem-page .earn-highlight .earn-rate{font-size:50px}
+.problem-page .earn-rate i{font-size:12px}
+.problem-page .earn-summary>div:first-child>b{font-size:15px}
+.problem-page .table-title{font-size:25px;letter-spacing:-.6px}
+.problem-page .workflow-table td.con>b,.problem-page .con{color:#965c35!important}
+.problem-page .earn-cards article:first-child .earn-rate,.problem-page .earn-cards article:first-child .earn-value>strong{color:#806550}
+.problem-page .tenure-contrast>div:first-child{background:#f3efe7}
+.problem-page .tenure-contrast>div:first-child span,.problem-page .tenure-contrast>div:first-child b{color:#806044}
+.problem-page .media-heading>p,.problem-page .customer-proof-head>p,.problem-page .quote-card>p,.problem-page .story-card>p{font-size:16px;line-height:1.75}
+.problem-page .media-date,.problem-page .media-link,.problem-page .story-grid a{font-size:13px;line-height:1.7}
+.problem-page .process-grid p,.problem-page .trust-cards p,.problem-page .document-callout p{font-size:15px;line-height:1.75}
+.problem-page .document-callout small,.problem-page .trust-note,.problem-page .trust-cards a{font-size:13px;line-height:1.8}
+.problem-page .fee-ledger b{font-size:15px}
+.problem-page .fee-ledger small,.problem-page .draft-policy{font-size:13px;line-height:1.75}
+.problem-page .faq summary{font-size:17px;line-height:1.6}
+.problem-page .faq details p{font-size:16px;line-height:1.8}
+.problem-page .customer-strip{overflow:hidden}
+.problem-page .option-table:before,.problem-page .workflow-table:before{content:none;display:none}
+@media(max-width:1100px){.problem-pains{gap:16px}.problem-pains article{padding:22px}.problem-visual .hero-gain{font-size:32px}.problem-page .earn-highlight .earn-value strong{font-size:34px}}
+@media(max-width:760px){
+.problem-page .wrap{width:calc(100% - 40px)}
+.problem-page .section{padding-block:52px}
+.problem-page .hero{padding:35px 0 40px}
+.problem-page .hero-grid{gap:32px}
+.problem-page .hero h1{font-size:36px;line-height:1.15;letter-spacing:-1.4px}
+.problem-page .hero-copy>p{font-size:16px;line-height:1.75;margin:23px 0 25px}
+.problem-page .hero .risk-line{font-size:13px;line-height:1.75;margin-top:14px}
+.problem-page .eyebrow{font-size:12px;line-height:1.65;letter-spacing:.055em;margin-bottom:17px}
+.problem-page .btn,.problem-page .btn.small{font-size:15px;min-height:46px;padding:12px 16px}
+.problem-page .nav .btn.small{font-size:14px;min-height:43px;padding:10px 13px}
+.problem-page .nav{gap:10px}
+.problem-page .hero .actions{gap:10px;align-items:stretch}
+.problem-page .hero .actions .btn{font-size:14px;padding:13px 14px}
+.problem-page .hero-fees{display:block;font-size:14px;line-height:1.7;margin-top:18px}
+.problem-page .hero-fees>span{display:block;padding:0;border:0;margin-top:4px;font-size:13px}
+.problem-page .design-bar{font-size:11px;padding:5px 15px;min-height:28px}
+.problem-page .design-bar button{font-size:11px}
+.problem-page .section h2,.problem-page .digital-band h2,.problem-page .ownership h2,.problem-page .closing h2,.problem-page .media-heading h2,.problem-page .customer-proof-head h2{font-size:31px;line-height:1.2;letter-spacing:-.9px}
+.problem-page .section-head{margin-bottom:27px}
+.problem-page .section-head>p,.problem-page .band-intro,.problem-page .section-copy{font-size:16px;line-height:1.75;margin-top:18px}
+.problem-page .problem-visual{padding:19px;border-radius:16px}
+.problem-page .visual-top{font-size:14px;gap:9px}
+.problem-page .sample-tag{font-size:11px}
+.problem-page .visual-amount{font-size:37px;letter-spacing:-1.3px;margin-block:24px}
+.problem-page .visual-amount small{font-size:14px;line-height:1.7;margin-top:9px}
+.problem-visual .option-pair{gap:9px;grid-template-columns:1fr 1.2fr;margin-top:15px}
+.problem-visual .option-pair>div{padding:18px 12px}
+.problem-visual .option-kicker{font-size:11px;line-height:1.6;margin-bottom:13px;min-height:35px}
+.problem-visual .option-pair h3{font-size:16px;line-height:1.5;min-height:48px}
+.problem-visual .hero-gain{font-size:28px;letter-spacing:-1px;margin-top:10px;white-space:nowrap}
+.problem-visual .option-pair p{font-size:13px;line-height:1.6}
+.problem-page .redeem-example{gap:11px;padding:17px 0}
+.problem-page .redeem-example b{font-size:16px}
+.problem-page .redeem-example p{font-size:14px;line-height:1.7;margin-top:8px}
+.problem-page .visual-note{font-size:13px;line-height:1.75}
+.problem-page .customer-strip{padding:23px 0 21px}
+.problem-page .customer-strip-head{display:block}
+.problem-page .customer-strip-head p{font-size:16px;line-height:1.6;max-width:300px}
+.problem-page .customer-strip-head a{display:inline-block;font-size:14px;margin-top:10px}
+.problem-page .customer-names.customer-grid{display:flex;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;gap:0;scroll-snap-type:x proximity;margin:19px 0 16px;padding-bottom:10px}
+.problem-page .customer-grid>span{flex:0 0 112px;min-height:55px;padding:10px 12px;border:0!important;font-size:21px;scroll-snap-align:start}
+.problem-page .customer-grid img,.problem-page .customer-grid>span:nth-child(9) img{max-width:92px;max-height:32px}
+.problem-page .proof-caption{font-size:13px;line-height:1.75}
+.problem-pains{grid-template-columns:1fr;gap:14px}
+.problem-pains article{padding:23px;display:grid;grid-template-columns:39px 1fr;gap:0 14px}
+.problem-pains .icon{grid-row:1/3;padding:9px;margin:3px 0 0;align-self:start}
+.problem-pains .icon svg{width:21px;height:21px}
+.problem-pains h3{font-size:21px;line-height:1.4;letter-spacing:-.4px}
+.problem-pains h3 br{display:none}
+.problem-pains p{font-size:16px;line-height:1.7;margin-top:12px}
+.problem-answer{display:block;padding:23px;margin-top:20px}
+.problem-answer b{font-size:21px;line-height:1.4;display:block}
+.problem-answer p{font-size:16px;line-height:1.75;margin-top:12px}
+.problem-page .earn-controls{grid-template-columns:1fr;gap:4px}
+.problem-page .earn-controls .field,.problem-page .earn-window>b{font-size:14px;line-height:1.6}
+.problem-page .money-input{min-height:54px;padding:13px 14px!important}
+.problem-page .earn-controls input{font-size:20px}
+.problem-page .earn-controls #earn-unit{font-size:15px;min-width:72px;max-width:90px}
+.problem-page .earn-controls .money-input span:last-child{font-size:14px}
+.problem-page .earn-window{margin:8px 0 23px}
+.problem-page .earn-window .segmented{gap:8px}
+.problem-page .earn-window .segmented button{font-size:15px;min-height:43px;padding:10px 18px}
+.problem-page .earn-cards{gap:16px}
+.problem-page .earn-cards article,.problem-page .earn-cards .earn-highlight{padding:23px 20px;grid-template-columns:1fr 1fr;gap:0 13px}
+.problem-page .earn-type,.problem-page .earn-highlight .earn-type{font-size:14px;line-height:1.6;letter-spacing:.025em;margin-bottom:17px}
+.problem-page .earn-rate,.problem-page .earn-highlight .earn-rate{font-size:40px;line-height:1.15}
+.problem-page .earn-rate>span{font-size:25px}
+.problem-page .earn-rate i,.problem-page .earn-highlight .earn-rate i{font-size:13px;margin-top:5px}
+.problem-page .earn-cards article>p{font-size:14px;line-height:1.7;margin-top:10px}
+.problem-page .earn-value{padding-left:13px}
+.problem-page .earn-value small{font-size:14px}
+.problem-page .earn-value strong,.problem-page .earn-highlight .earn-value strong{font-size:28px;letter-spacing:-.8px;line-height:1.3}
+.problem-page .earn-access,.problem-page .earn-highlight .earn-access{font-size:14px;line-height:1.7;margin-top:19px;padding-top:15px}
+.problem-page .earn-summary{padding:21px}
+.problem-page .earn-summary>div:first-child>b{font-size:15px}
+.problem-page .earn-summary p{font-size:17px;line-height:1.65}
+.problem-page .calc-short-note,.problem-page .calc-details,.problem-page .note{font-size:14px;line-height:1.8}
+.problem-page .table-title{font-size:23px;line-height:1.35;margin-top:30px}
+.problem-page .option-table thead th:not(:first-child){font-size:13px;padding:13px 10px;line-height:1.5}
+.problem-page .option-table thead th:last-child{font-size:16px}
+.problem-page .option-table tbody th:first-child{font-size:14px;padding:11px 13px}
+.problem-page .option-table tbody td{font-size:14px;padding:16px 10px;line-height:1.6}
+.problem-page .option-table tbody td:last-child{font-size:15px;line-height:1.5}
+.problem-page .tenure-contrast span{font-size:11px;line-height:1.7}
+.problem-page .tenure-contrast b{font-size:20px;line-height:1.4;letter-spacing:-.4px}
+.problem-page .fund-identity h3{font-size:18px;line-height:1.5}
+.problem-page .fund-identity span,.problem-page .fund-return small{font-size:13px;line-height:1.7}
+.problem-page .fund-logo{width:53px;height:50px;flex-shrink:0}
+.problem-page .fund-card{padding:24px 21px}
+.problem-page .fund-return strong{font-size:46px}
+.problem-page .past-gain{display:block}
+.problem-page .past-gain>span{font-size:14px;max-width:none;line-height:1.7;display:block}
+.problem-page .past-gain>b{font-size:28px;display:block;margin-top:8px}
+.problem-page .fund-card>a{font-size:14px;line-height:1.7;margin-top:19px}
+.problem-page .fund-category>span{font-size:12px}
+.problem-page .fund-category p{font-size:16px;line-height:1.75}
+.problem-page .fund-section .note,.problem-page .fund-next>span,.problem-page .fund-next>a{font-size:14px;line-height:1.8}
+.problem-page .adoption-band{padding-block:43px}
+.problem-page .adoption-layout h2{font-size:29px;line-height:1.25;letter-spacing:-.7px}
+.problem-page .adoption-layout>div>p,.problem-page .adoption-stat p{font-size:16px;line-height:1.75}
+.problem-page .adoption-stat small,.problem-page .adoption-stat a{font-size:13px;line-height:1.8}
+.problem-page .digital-band{padding-block:49px}
+.problem-page .workflow-table tr>th:first-child{font-size:14px;padding:13px 15px}
+.problem-page .workflow-table tr>td{padding:18px 14px}
+.problem-page .workflow-table td>b{font-size:15px;line-height:1.6}
+.problem-page .workflow-table tr>td:last-child>b{font-size:18px;line-height:1.5;letter-spacing:-.2px}
+.problem-page .workflow-table tr>td:before,.problem-page .workflow-table tr>td:nth-child(3):before{font-size:11px;line-height:1.7;margin-bottom:13px;letter-spacing:0}
+.problem-page .workflow-outcomes>div{font-size:16px;line-height:1.7}
+.problem-page .product-top{font-size:16px;display:block;padding:19px}
+.problem-page .product-top span{display:block;font-size:13px;margin-top:4px}
+.problem-page .product-tabs{padding:11px 10px 0;gap:5px}
+.problem-page .product-tabs button{font-size:14px;min-height:46px;padding:10px 7px}
+.problem-page #product-panel{padding:24px 17px}
+.problem-page #product-panel h3{font-size:24px}
+.problem-page #product-panel>p{font-size:14px;line-height:1.75}
+.problem-page .product-row{display:grid;grid-template-columns:30px 1fr;padding:16px 12px;gap:9px 12px}
+.problem-page .product-row .icon{padding:6px;align-self:start;grid-row:1/3}
+.problem-page .product-row b{font-size:15px;line-height:1.5}
+.problem-page .product-row small{font-size:14px;line-height:1.7;margin-top:7px}
+.problem-page .product-row>span:last-child{grid-column:2;margin:0;text-align:left;font-size:13px;line-height:1.7}
+.problem-page .product-benefits h3{font-size:20px;line-height:1.45}
+.problem-page .product-benefits p{font-size:16px;line-height:1.75}
+.problem-page .media-heading>p,.problem-page .customer-proof-head>p,.problem-page .quote-card>p,.problem-page .story-card>p{font-size:16px;line-height:1.75}
+.problem-page .media-date,.problem-page .media-link,.problem-page .story-grid a{font-size:14px;line-height:1.7}
+.problem-page .quote-card blockquote{font-size:23px;line-height:1.55}
+.problem-page .money-flow h3{font-size:19px;line-height:1.5}
+.problem-page .money-flow p{font-size:14px;line-height:1.7}
+.problem-page .ownership-copy{font-size:16px;line-height:1.8}
+.problem-page .trust-cards b{font-size:17px;line-height:1.5}
+.problem-page .trust-cards p{font-size:15px;line-height:1.75}
+.problem-page .trust-note,.problem-page .trust-cards a{font-size:14px;line-height:1.8}
+.problem-page .process-grid h3{font-size:21px;line-height:1.4}
+.problem-page .process-grid p{font-size:16px;line-height:1.75}
+.problem-page .process-grid b,.problem-page .process-grid>article>span{font-size:14px;line-height:1.7}
+.problem-page .document-callout b{font-size:17px;line-height:1.5}
+.problem-page .document-callout p{font-size:16px;line-height:1.8}
+.problem-page .document-callout small{font-size:14px;line-height:1.8}
+.problem-page .fee-ledger>div{padding:20px 16px;gap:10px;align-items:flex-start}
+.problem-page .fee-ledger b{font-size:16px;line-height:1.6}
+.problem-page .fee-ledger small,.problem-page .draft-policy{font-size:14px;line-height:1.75}
+.problem-page .fee-ledger strong{font-size:24px;line-height:1.6;white-space:nowrap}
+.problem-page .fee-number{font-size:13px;flex-shrink:0}
+.problem-page .fee-status{font-size:14px}
+.problem-page .faq summary{font-size:17px;line-height:1.65;padding-block:22px}
+.problem-page .faq details p{font-size:16px;line-height:1.85}
+.problem-page .closing p{font-size:16px;line-height:1.75}
+.problem-page .closing-inner>div:last-child>p{font-size:14px;line-height:1.8}
+.problem-page .footer{padding-bottom:116px}
+.problem-page .footer-brand p,.problem-page .footer-small{font-size:14px;line-height:1.8}
+.problem-page .mobile-cta{padding:12px 15px calc(12px + env(safe-area-inset-bottom));gap:10px}
+.problem-page .dock-copy b{font-size:14px}
+.problem-page .dock-copy small{font-size:11px;line-height:1.6;max-width:150px}
+.problem-page .dock-actions{gap:12px}
+.problem-page .dock-pricing{font-size:14px}
+.problem-page .mobile-cta .btn{font-size:14px;min-height:44px;padding:11px 13px}
+.problem-page .flow-wrap{width:calc(100% - 40px)}
+.problem-page .flow-main h1,.problem-page .registration-layout .flow-main h1{font-size:33px;line-height:1.2}
+.problem-page .flow-intro,.problem-page .check-line{font-size:16px;line-height:1.75}
+.problem-page .flow-main .field{font-size:14px;line-height:1.6}
+.problem-page .field>input,.problem-page .field>select{font-size:16px;min-height:50px}
+.problem-page .form-caption,.problem-page .flow-back,.problem-page .tiny,.problem-page .screen-footer,.problem-page .inline-note{font-size:14px;line-height:1.8}
+.problem-page .document-row{padding:16px 12px;gap:9px}
+.problem-page .document-row strong{font-size:15px;line-height:1.5}
+.problem-page .document-row small{font-size:13px;line-height:1.7}
+.problem-page .document-row button{font-size:13px;min-height:42px;padding:9px}
+.problem-page .document-row>.icon{display:none}
+.problem-page .preview-controls,.problem-page .preview-controls b,.problem-page .preview-controls button{font-size:12px;line-height:1.7}
+}
+@media(max-width:360px){.problem-page .hero h1{font-size:33px}.problem-page .hero .actions .btn{font-size:13px;padding-inline:12px}.problem-page .earn-value strong,.problem-page .earn-highlight .earn-value strong{font-size:25px}.problem-visual .hero-gain{font-size:25px}.problem-page .dock-copy small{max-width:132px}.problem-page .dock-actions{gap:9px}.problem-page .mobile-cta .btn{padding-inline:10px}}
